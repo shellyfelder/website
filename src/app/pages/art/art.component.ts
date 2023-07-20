@@ -11,7 +11,7 @@ export class Art {
 
   artlist = [
     {
-      name: 'Castle and Sun 1',
+      name: 'Castle and Sun',
       artist: 'Paul Klee (1879 - 1940)',
       year: '1928',
       medium: 'Oil on Canvas',

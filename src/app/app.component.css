@@ -18,6 +18,7 @@
 html {
 	padding: 0px;
 	margin: 0px;
+	height:  100%;
 }
 
 body {
@@ -31,6 +32,7 @@ body {
 .navbar {
 	padding-top: -100px;
 	padding-bottom: 0px;
+	margin-bottom: 0px;
 }
 
 .navbar ul {
@@ -68,7 +70,8 @@ body {
 
 .page {
 	width: 85vw;
-	min-height: 60vh;
+	height:  100%;
+	/*min-height: 60vh;*/
 	margin-left: auto;
 	margin-right: auto;
 	overflow-y: scroll;
@@ -96,9 +99,7 @@ body {
 
 /* HOME */
 
-.home {
-
-}
+.home {}
 
 .home h1 {
 	font-family: 'Ephesis', cursive;
@@ -172,13 +173,15 @@ body {
 /* BOOKS */
 
 .books {
-	background: url('../assets/images/frame1-black.png');
+	background: url('../assets/images/frame4-black.png');
 	background-size: 85vw;
+	/*background-color: black;*/
+	/*border-radius: 5px;*/
+	height:  100%;
+	font-family: 'Nunito', sans-serif;
 	color: white;
-	padding-top: 13.8vw;
-	/*padding-top: 10em;*/
+	padding-top: 10.5vw;
 	margin: 0px;
-	z-index:100;
 /*	position: absolute;
 */
 }
@@ -196,17 +199,26 @@ body {
 	margin-bottom: 10px;
 }
 
+.books h3 {
+	padding-top:  50px;
+	/*font-weight: bold;*/
+	font-size: 20px;
+}
+
+.books p {
+	font-size: 16px;
+}
 .books .inner {
 	background-color: black;
-	width: 54vw;
-	margin-left: 15vw;
-	min-height: 80vw;
+	width: 62.3vw;
+	margin-left: 11.2vw;
+	height: 800px;
+	/*min-height: 80vw;*/
 	z-index: 1;
-/*	position: absolute;
-*/}
+}
 
 .bookimg {
-	height: 400px;
+	width: 350px;
 	float: left;
 	display: inline-block;
 	/*opacity: 0.8;*/
@@ -217,10 +229,13 @@ body {
 }
 
 .books .sub {
-	color: white;
-	margin-bottom: 180px;
-	padding-top: 0px;
-	height: 300px;
+/*	padding: 20px;
+	border-radius: 5px;
+	background-color: black;
+	min-height: 650px;
+	color: white;*/
+	/*margin-bottom: 180px;*/
+	/*padding-top: 50px;*/
 }
 
 .books .posttext {
@@ -278,4 +293,99 @@ body {
 }
 .art .smalltext {
 	font-size: 10px;
+}
+
+
+/* FAQ */
+
+.faq {
+	background: url('../assets/images/frame3.png');
+	background-size: 85vw;
+	color: white;
+	padding-top: 12.7vw;
+	/*padding-top: 10em;*/
+	margin: 0px;
+	z-index:100;
+/*	position: absolute;
+*/
+}
+
+.faq h1 {
+	font-family: 'Ephesis', cursive;
+	text-align: center;
+	color: white;
+	font-size: 54px;
+	letter-spacing: 2.2px;
+	font-weight: 100;
+	padding-bottom: 10px;
+	margin-top:10px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+.faq .inner {
+	background-color: black;
+	width: 59.8vw;
+	margin-left: 12.5vw;
+	min-height: 80vw;
+	z-index: 1;
+}
+
+.faq .sub {
+	color: white;
+	margin-bottom: 180px;
+	padding-top: 0px;
+	height: 300px;
+}
+
+.faq p {
+	color:  white;
+	font-family: 'Nunito', sans-serif;
+	font-size:  14px;
+}
+
+/* CONTACT */
+
+.contact {
+	background: url('../assets/images/frame3.png');
+	background-size: 85vw;
+	color: white;
+	padding-top: 12.7vw;
+	/*padding-top: 10em;*/
+	margin: 0px;
+	z-index:100;
+}
+
+.contact h1 {
+	font-family: 'Ephesis', cursive;
+	text-align: center;
+	color: white;
+	font-size: 54px;
+	letter-spacing: 2.2px;
+	font-weight: 100;
+	padding-bottom: 10px;
+	margin-top:10px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+.contact .inner {
+	background-color: black;
+	width: 59.8vw;
+	margin-left: 12.5vw;
+	min-height: 80vw;
+	z-index: 1;
+}
+
+.contact .sub {
+	color: white;
+	margin-bottom: 180px;
+	padding-top: 0px;
+	height: 300px;
+}
+
+.contact p {
+	color:  white;
+	font-family: 'Nunito', sans-serif;
+	font-size:  14px;
 }
