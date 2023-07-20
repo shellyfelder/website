@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+/*@font-face {
+  font-family: 'MyFont';
+  src: url('./Lugrasimo-Regular.ttf') format('ttf'),
+    /*url('./my-font.woff') format('woff');*/
+  /*font-weight: 600;
+  font-style: normal;*/
+/*}*/
+
+/*.hello {
+  background: url('./assets/images/icon.png');
+  font-family: 'MyFont';
+}*/
+
+html {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+/* NAV BAR */
+
+.navbar {
+	padding-top: -100px;
+	padding-bottom: 0px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.navbar ul li {
+	font-family: 'Nunito', sans-serif;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 18px;
+	/*margin-top: -30px;*/
+}
+
+.navbar ul li:hover {
+	text-decoration: underline;
+}
+
+.josephine {
+	display: block;
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+}
+
+
+/* PAGES */
+
+
+.page {
+	width: 85vw;
+	min-height: 60vh;
+	margin-left: auto;
+	margin-right: auto;
+	overflow-y: scroll;
+	overflow-x: visible;
+	border-radius: 5px;
+}
+
+.page h1 {
+	font-family: 'Ephesis', cursive;
+	text-align: center;
+	color: white;
+	font-size: 54px;
+	letter-spacing: 2.2px;
+	font-weight: 100;
+	padding-bottom: 10px;
+	margin-top:10px;
+}
+
+.page p {
+	font-family: 'Nunito', sans-serif;
+	font-size: 14px;
+}
+
+
+
+/* HOME */
+
+.home {
+
+}
+
+.home h1 {
+	font-family: 'Ephesis', cursive;
+	text-align: center;
+	color: black;
+	font-size: 54px;
+	letter-spacing: 2.2px;
+	font-weight: 100;
+}
+
+
+/* ABOUT */
+
+.about {
+	background-color: black;
+	padding-bottom: 50px;
+	border-radius:  5px;
+}
+
+.about h1 {
+	font-family: 'Ephesis', cursive;
+	text-align: center;
+	color: white;
+	font-size: 54px;
+	letter-spacing: 2.2px;
+	font-weight: 100;
+	padding-bottom: 10px;
+	margin-top:10px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+.aboutsub {
+	/*background-color: red;*/
+	background: rgb(255,0,0, .4);
+	/*opacity: 0.5;*/
+	color: white;
+	margin-bottom: 50px;
+	padding-top: 0px;
+	height: 300px;
+}
+
+.aboutimg {
+	height: 400px;
+	float: left;
+	display: inline-block;
+	/*opacity: 0.8;*/
+	background: rgb(255,0,0, .4);
+	margin-right: 15px;
+	/*border: red 1px solid;*/
+}
+
+.about .imgtwo {
+	margin-left: -15px;
+}
+
+.abouttext {
+	font-family: 'Nunito', sans-serif;
+	margin-left: 20px;
+	margin-right: 100px;
+}
+
+.about h3 {
+	font-family: 'Ephesis', cursive;
+	font-size: 40px;
+	padding-top: 10px;
+	margin-top: 20px;
+}
+
+
+/* BOOKS */
+
+.books {
+	background: url('../assets/images/frame1-black.png');
+	background-size: 85vw;
+	color: white;
+	padding-top: 13.8vw;
+	/*padding-top: 10em;*/
+	margin: 0px;
+	z-index:100;
+/*	position: absolute;
+*/
+}
+
+.books h1 {
+	font-family: 'Ephesis', cursive;
+	text-align: center;
+	color: white;
+	font-size: 54px;
+	letter-spacing: 2.2px;
+	font-weight: 100;
+	padding-bottom: 10px;
+	margin-top:10px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+.books .inner {
+	background-color: black;
+	width: 54vw;
+	margin-left: 15vw;
+	min-height: 80vw;
+	z-index: 1;
+/*	position: absolute;
+*/}
+
+.bookimg {
+	height: 400px;
+	float: left;
+	display: inline-block;
+	/*opacity: 0.8;*/
+	margin-right: 15px;
+	margin-left: 15px;
+	border-radius: 10px;
+	/*border: red 1px solid;*/
+}
+
+.books .sub {
+	color: white;
+	margin-bottom: 180px;
+	padding-top: 0px;
+	height: 300px;
+}
+
+.books .posttext {
+	color:  white;
+	text-align:  center;
+}
+
+
+/* ART */
+
+.art {
+
+}
+
+.art h1 {
+	font-family: 'Ephesis', cursive;
+	text-align: center;
+	color: black;
+	font-size: 54px;
+	letter-spacing: 2.2px;
+	font-weight: 100;
+	padding-bottom: 10px;
+	margin-top:10px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+.art .artimg {
+	max-width: 500px;
+  /*float: left;*/
+	/*display: inline-block;*/
+	margin-right: 40px;
+}
+
+.art .cardbox {
+	font-family: 'Nunito', sans-serif;
+	/*float: right;*/
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	/*margin-left: 540px;*/
+	padding: 0px 10px 10px 10px;
+	/*box-shadow:  2px 2px 5px rgba(0, 0, 0, 0.5);*/
+}
+
+.art .cardbox h3 {
+	margin-top:10px;
+	margin-bottom:5px;
+}
+.art .cardbox h2 {
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.art .cardbox p {
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.art .smalltext {
+	font-size: 10px;
+}
