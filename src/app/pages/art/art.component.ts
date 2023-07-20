@@ -36,7 +36,7 @@ export class Art {
       year: '1988',
       medium: 'Acrylic and Oilstick on Canvas',
       location: 'Private Collection',
-      desc: '',
+      desc: 'something',
       source: '',
       img: './assets/images/bas.jpg'
     },
